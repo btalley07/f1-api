@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+
+    <title>F1 RACER API</title>
+</head>
+<body>
+ 
+ <nav>
+    <ul class="nav">
+        <li class="item">
+        <a class="link" href="https://www.formula1.com/en/racing/2021.html">Schedule</a>
+        </li>
+        <li class="item">
+        <a class="link" href="https://www.formula1.com/">F1 Racing</a>
+        </li>
+        <li class="item">
+        <a class="link" href="https://www.formula1.com/en/drivers.html">Drivers</a>
+        </li>
+        <li class="item">
+        <a class="link " href="https://www.formula1.com/en/teams.html" >Teams</a>
+        </li>
+    </ul>
+  </nav>
+  
+  <section>
+      
+      <form>
+        <div class="form">
+            <div class="row">
+            <div class="col">
+                <label for="season">Season</label>
+                <input type="text" class="text" placeholder="Season" id="season">
+            </div>
+            <div class="col">
+                <label for="round">Round</label>
+                <input type="text" class="text" placeholder="Round" id="round">
+            </div>
+            <button type="button" class="btn btn-primary" onClick="getData()">Get Standings</button>
+            </div>
+        </div>
+      </form>
+     
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Position</th>
+            <th scope="col">Name</th>
+            <th scope="col">Nationality</th>
+            <th scope="col">Sponser</th>
+            <th scope="col">Points</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td id="name-0"></td>
+            <td id="nationality-0"></td>
+            <td id= "sponser-0"></td>
+            <td id="points-0"></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td id="name-1"></td>
+            <td id="nationality-1"></td>
+            <td id="sponser-1"></td>
+            <td id="points-1"></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td id="name-2"></td>
+            <td id="nationality-2"></td>
+            <td id="sponser-2"></td>
+            <td id="points-2"></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td id="name-3"></td>
+            <td id="nationality-3"></td>
+            <td id="sponser-3"></td>
+            <td id="points-3"></td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td id="name-4"></td>
+            <td id="nationality-4"></td>
+            <td id="sponser-4"></td>
+            <td id="points-4"></td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td id="name-5"></td>
+            <td id="nationality-5"></td>
+            <td id="sponser-5"></td>
+            <td id="points-5"></td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td id="name-6"></td>
+            <td id="nationality-6"></td>
+            <td id="sponser-6"></td>
+            <td id="points-6"></td>
+          </tr>
+        </tbody>
+      </table>
+    <div><img src="assets/b3d346990fca90a27bd8f84f3f91f66d.jpeg" alt="pink car" class='car'></div>
+  </section>   
+
+
+
+</body>
+</html>

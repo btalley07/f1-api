@@ -1,0 +1,68 @@
+
+section{
+    background: linear-gradient(to top, black, hotpink);
+    height: 150vh;
+}
+
+form,table{
+    width: 75vw;
+    margin: 0 auto;
+} 
+
+table{
+    background-color: black;
+    border: 5px solid white;
+    
+}
+
+.item{
+    display: flex;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+
+.nav{
+    background: linear-gradient(to top,hotpink, black);
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin: 0px;
+    border-bottom: 5px black;
+}
+
+*{color:white; font-family: 'Autour One', cursive; font-size: x-large}
+
+ul{
+    list-style: none;
+}
+
+.form{
+    display: flex;
+    display: inline-block;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.row{
+    display: flex;
+    display: inline-block
+}
+
+.col{
+    display: flex;
+    display: inline-block;
+}
+
+.btn{
+    background-color: black;
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+.car{
+    padding-top: 7%;
+    padding-left: 20%;
+}
